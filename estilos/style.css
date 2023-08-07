@@ -43,3 +43,22 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+/*Alinha os ícones das redes-sociais no lado direito*/
+section#redes-sociais {
+    text-align: right;
+    margin-right: 20px;
+}
+
+section#redes-sociais img {
+    width: 50px; /*Comprimento das imagens*/
+    margin: 10px; /* Margem de separação das imagens*/
+    border-radius: 50%; /* Coloca as imagens no formato redondo ao invés de 10px, 50 por cento de arrendodamento */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.700);
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.534);
+    /*Movimenta os ícones para a esquerda e para cima*/
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);    
+}
